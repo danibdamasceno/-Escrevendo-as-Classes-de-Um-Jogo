@@ -5,6 +5,15 @@ classe  modeloHeroi  {
         esse . nome  =  nome ;
         esse . idade  =  idade ;
         esse . tipoHeroi  =  tipoHeroi ;
+
+let  tiposHerois  =  [ "mago" ,  "guereiro" ,  "monge" ,  "ninja" ]
+let  nomesHerois  =  [ "Sansa" ,  "Daenarys" ,  "Elektra" ,  "Dolores" ,  "Yennefer" ]
+
+for  ( const  tipos  de  tiposHerois )  {
+    for  ( const  nomes  de  nomesHerois )  {
+        let  heroi  =  novo  modeloHeroi ( nomes ,  30 ,  tipos )
+        herói . atacar ( heroi . definirAtaque ( ) )
+
     }
 
     definirAtaque ( )  {
@@ -26,11 +35,3 @@ classe  modeloHeroi  {
         console . log ( `O ${ this . tipoHeroi } atacou usando ${ ataque } ` )
     }
 }
-
-let  tiposHerois  =  [ "mago" ,  "guereiro" ,  "monge" ,  "ninja" ]
-let  nomesHerois  =  [ "Sansa" ,  "Daenarys" ,  "Elektra" ,  "Dolores" ,  "Yennefer" ]
-
-for  ( const  tipos  de  tiposHerois )  {
-    for  ( const  nomes  de  nomesHerois )  {
-        let  heroi  =  novo  modeloHeroi ( nomes ,  30 ,  tipos )
-        herói . atacar ( heroi . definirAtaque ( ) )
