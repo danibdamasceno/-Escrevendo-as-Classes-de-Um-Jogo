@@ -1,4 +1,5 @@
 # -Escrevendo-as-Classes-de-Um-Jogo
+
 classe  modeloHeroi  {
     construtor ( nome ,  idade ,  tipoHeroi )  {
         esse . nome  =  nome ;
